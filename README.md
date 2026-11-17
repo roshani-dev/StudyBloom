@@ -2,7 +2,7 @@
 
 A simple and user-friendly study planner website built to help students organize daily tasks, track progress, manage study time, and stay productive.
 
-![StudyBloom Collage](studyBloom Collage.png)
+![StudyBloom Collage](studyBloom%20Collage.png)
 
 ---
 
