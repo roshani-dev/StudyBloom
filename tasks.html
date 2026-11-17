@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Tasks - StudyBloom</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <h2>StudyBloom 🌸</h2>
+
+            <nav>
+                <a href="index.html">🏠 Dashboard</a>
+                <a href="tasks.html" class="active">📝 My Tasks</a>
+                <a href="progress.html">📊 Progress</a>
+                <a href="focus.html">⏱️ Focus Room</a>
+                <a href="resources.html">📚 Study Resources</a>
+                <a href="profile.html">⚙️ Profile & Settings</a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="footer-flower">🌷</div>
+                <h3>Keep Growing!</h3>
+                <p>Little efforts make big dreams come true. 💗</p>
+            </div>
+
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <h1>My Tasks 📝</h1>
+            <p>Manage your study tasks here.</p>
+            <!-- Task Summary Cards -->
+<div class="task-summary">
+
+    <div class="summary-card pending-card">
+        <h3>⏳ Pending Tasks</h3>
+        <h2 id="pending-count">0</h2>
+    </div>
+
+    <div class="summary-card completed-card">
+        <h3>🌸 Completed Tasks</h3>
+        <h2 id="completed-count">0</h2>
+    </div>
+
+</div>
+        
+            <div class="task-input-card">
+                <h2>Add New Task ✨</h2>
+                <div class="task-form">
+
+        <input
+            type="text"
+            id="task-input"
+            placeholder="Enter your task..."
+        >
+
+        <select id="subject-input">
+            <option value="">Select Subject</option>
+            <option value="DSA">DSA</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Java">Java</option>
+            <option value="English">English</option>
+            <option value="Project">Project</option>
+        </select>
+
+        <button id="add-task-btn">+ Add Task</button>
+
+    </div>
+
+            </div>
+            <!-- Your Tasks Section -->
+<div class="task-list-card">
+    <h2>Your Tasks 📋</h2>
+    <p id="task-count">Total Tasks: 0</p>
+    <div class="task-filters">
+    <button class="filter-btn active" data-filter="all">All Tasks</button>
+    <button class="filter-btn" data-filter="pending">Pending</button>
+    <button class="filter-btn" data-filter="completed">Completed</button>
+</div>
+
+    <ul id="task-list">
+        <li>No tasks added yet. Start by adding one! 🌷</li>
+    </ul>
+</div>
+
+        </main>
+
+    </div>
+<script src="script.js"></script>
+
+</body>
+</html>

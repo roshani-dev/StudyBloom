@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings | StudyBloom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+    <aside class="sidebar">
+
+        <h2>StudyBloom 🌷</h2>
+
+        <nav>
+            <a href="index.html">Dashboard</a>
+            <a href="tasks.html">My Tasks</a>
+            <a href="progress.html">Progress</a>
+            <a href="focus.html">Focus Room</a>
+            <a href="resources.html">Study Resources</a>
+            <a href="profile.html" class="active">Settings</a>
+        </nav>
+
+    </aside>
+
+    <main class="main-content">
+
+        <div class="topbar">
+            <div>
+                <h2>Settings</h2>
+                <p>Manage your StudyBloom experience 🌸</p>
+            </div>
+        </div>
+
+        <section class="settings-container">
+
+            <div class="settings-card">
+
+                <h3>👤 Account Settings</h3>
+
+                <div class="setting-field">
+                    <label for="user-name">Your Name</label>
+                    <input type="text" id="user-name" placeholder="Enter your name">
+                </div>
+
+                <div class="setting-field">
+                    <label for="user-email">Email Address</label>
+                    <input type="email" id="user-email" placeholder="Enter your email">
+                </div>
+
+                <button id="save-profile-btn">Save Changes</button>
+
+            </div>
+
+
+            <div class="settings-card">
+
+                <h3>🎨 Appearance</h3>
+
+                <p>Choose your preferred appearance.</p>
+
+                <div class="setting-option">
+                    <span>Light Theme</span>
+                    <span class="theme-status">Currently Active ✨</span>
+                </div>
+
+            </div>
+
+
+            <div class="settings-card">
+
+                <h3>🔔 Notifications</h3>
+
+                <p>Manage your study reminders.</p>
+
+                <div class="setting-option">
+                    <label for="notification-toggle">
+                        Enable Study Reminders
+                    </label>
+
+                    <input type="checkbox" id="notification-toggle">
+                </div>
+
+            </div>
+
+
+            <div class="settings-card">
+
+                <h3>🗑️ Reset Data</h3>
+
+                <p>Clear all your saved study tasks.</p>
+
+                <button id="reset-data-btn" class="reset-btn">
+                    Clear All Tasks
+                </button>
+
+            </div>
+
+            <div class="settings-footer">
+                <p>Made with 💗 for your study journey.</p>
+                <p>StudyBloom © 2026</p>
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

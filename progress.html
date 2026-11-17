@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Progress - StudyBloom</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <h2>StudyBloom 🌸</h2>
+
+            <nav>
+                <a href="index.html">🏠 Dashboard</a>
+                <a href="tasks.html">📝 My Tasks</a>
+                <a href="progress.html" class="active">📊 Progress</a>
+                <a href="focus.html">⏱️ Focus Room</a>
+                <a href="resources.html">📚 Study Resources</a>
+                <a href="profile.html">⚙️ Profile & Settings</a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="footer-flower">🌷</div>
+
+                <h3>Keep Growing!</h3>
+
+                <p>Little efforts make big dreams come true. 💗</p>
+            </div>
+
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Page Heading -->
+            <div class="progress-header">
+
+                <div>
+                    <h1>📊 Your Progress</h1>
+
+                    <p>Track your study journey and see how far you've come!</p>
+                </div>
+
+            </div>
+
+
+            <!-- Summary Cards -->
+            <div class="progress-stats">
+
+                <div class="progress-card completed-stat">
+                    <h3>💜 Completed Tasks</h3>
+                    <h2 id="progress-completed">0</h2>
+                </div>
+
+                <div class="progress-card pending-stat">
+                    <h3>⏳ Pending Tasks</h3>
+                    <h2 id="progress-pending">0</h2>
+                </div>
+
+                <div class="progress-card overall-stat">
+                    <h3>🌸 Overall Progress</h3>
+                    <h2 id="overall-percentage">0%</h2>
+                </div>
+
+                <div class="progress-card streak-stat">
+                    <h3>🔥 Study Streak</h3>
+                    <h2 id="study-streak">0 Days</h2>
+                </div>
+
+            </div>
+
+
+            <!-- Overall Progress -->
+            <section class="progress-overview">
+
+                <h2>📊 Progress Overview</h2>
+
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="overall-progress-bar"></div>
+                </div>
+
+                <p>You're doing great! Keep going! 💜</p>
+
+            </section>
+
+
+            <!-- Bottom Section -->
+            <div class="progress-details">
+
+
+                <!-- Subject Wise Progress -->
+                <section class="subject-progress">
+
+                    <h2>⭐ Subject-wise Progress</h2>
+
+                    <div class="subject-row">
+
+                        <span>DSA</span>
+
+                        <div class="subject-bar">
+                            <div class="subject-fill dsa-fill"
+                                id="dsa-progress-bar"></div>
+                        </div>
+
+                        <strong id="dsa-progress-text">0%</strong>
+
+                    </div>
+
+
+                    <div class="subject-row">
+
+                        <span>Java</span>
+
+                        <div class="subject-bar">
+                            <div class="subject-fill java-fill"
+                                id="java-progress-bar"></div>
+                        </div>
+
+                        <strong id="java-progress-text">0%</strong>
+
+                    </div>
+
+
+                    <div class="subject-row">
+
+                        <span>Web Dev</span>
+
+                        <div class="subject-bar">
+                            <div class="subject-fill web-fill"
+                                id="web-progress-bar"></div>
+                        </div>
+
+                        <strong id="web-progress-text">0%</strong>
+
+                    </div>
+
+
+                    <div class="subject-row">
+
+                        <span>Others</span>
+
+                        <div class="subject-bar">
+                            <div class="subject-fill others-fill"
+                                id="others-progress-bar"></div>
+                        </div>
+
+                        <strong id="others-progress-text">0%</strong>
+
+                    </div>
+
+                </section>
+
+
+                <!-- Weekly Study Activity -->
+                <section class="weekly-activity">
+
+                    <h2>📅 Weekly Study Activity</h2>
+
+                    <div class="weekly-chart">
+
+                        <div class="chart-bar">
+                            <div class="bar mon-bar"></div>
+                            <span>Mon</span>
+                        </div>
+
+                        <div class="chart-bar">
+                            <div class="bar tue-bar"></div>
+                            <span>Tue</span>
+                        </div>
+
+                        <div class="chart-bar">
+                            <div class="bar wed-bar"></div>
+                            <span>Wed</span>
+                        </div>
+
+                        <div class="chart-bar">
+                            <div class="bar thu-bar"></div>
+                            <span>Thu</span>
+                        </div>
+
+                        <div class="chart-bar">
+                            <div class="bar fri-bar"></div>
+                            <span>Fri</span>
+                        </div>
+
+                        <div class="chart-bar">
+                            <div class="bar sat-bar"></div>
+                            <span>Sat</span>
+                        </div>
+
+                        <div class="chart-bar">
+                            <div class="bar sun-bar"></div>
+                            <span>Sun</span>
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
