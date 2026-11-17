@@ -8,7 +8,7 @@ A simple and user-friendly study planner website built to help students organize
 
 👉 https://studybloom-hub.netlify.app/profile
 
-[Open StudyBloom Website](https://studybloom-hub.netlify.app/profile)
+[Open StudyBloom Website](https://studybloom-hub.netlify.app)
 
 ## ✨ Features
 
